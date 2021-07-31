@@ -1,5 +1,18 @@
+class CatalogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: "iPhone 12 Pro",
+        desc: "Apple iPhone 12th Generation",
+        price: 999,
+        color: "#33505a",
+        image:
+            "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-product-iphone-12-pro-max-gold.png")
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -14,14 +27,3 @@ class Item {
       required this.color,
       required this.image});
 }
-
-final products = [
-  Item(
-      id: "Perpixl001",
-      name: "iPhone 12 Pro",
-      desc: "Apple iPhone 12th Generation",
-      price: 999,
-      color: "#33505a",
-      image:
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fde%2Fshop%2Fbuy-iphone%2Fiphone-12-pro&psig=AOvVaw17kinK_ow-1zesgoG3ybGG&ust=1627722275941000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJiS35e4ivICFQAAAAAdAAAAABAD")
-];
